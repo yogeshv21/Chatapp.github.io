@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(141, 204, 255); */
+}
+
+#lft{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(88, 162, 223);
+}
+
+#rgt{
+    height: 100%;
+    width: 70%;
+}
+
+#rgt #cont{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid  rgb(88, 162, 223);
+    overflow: auto;
+    padding: .5%;
+}
+
+#cont .msg{
+    padding: 1% 3%;
+    background-color: rgb(88, 162, 223);
+    color: white;
+    display: block;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+#cont .lft{
+    float: left;
+    clear: both;
+}
+
+#cont .rgt{
+    float: right;
+    clear: both;
+}
+
+#rgt #cont::-webkit-scrollbar{
+    display: none;
+}
+
+#rgt form{
+    width: 70%;
+    height: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#rgt form #inp{
+   height: 100%;
+   width: 84.3%;
+   border: 2px solid  rgb(88, 162, 223);
+   outline: none;
+   border-radius: 10px;
+   padding: 2%;
+}
+
+#rgt form #btn{
+    height: 100%;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(88, 162, 223);
+    color: white;
+}
